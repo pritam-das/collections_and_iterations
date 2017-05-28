@@ -20,3 +20,20 @@ puts "The sorted version of my friends and family member's ages: #{my_familys_ag
 my_familys_age << 0
 puts "After new baby was born the sorted version of my friends and family members ages: #{my_familys_age.sort_by(&:to_i)}"
 puts "My favourite movie Forrest Gump was released in #{hash_fav_movies["Forrest Gump"]}"
+
+##############################EXERCISE 2#############################
+
+length = (fav_colours.length) - 1
+puts "My last favourite color is #{fav_colours[length]}"
+
+hash_fav_movies["La la land"] = 2017
+puts "la la land was made in #{hash_fav_movies["La la land"]}"
+
+coin_flip_results = coin_flip_results.reverse
+puts "The coin flip results are: #{coin_flip_results}"
+
+puts "The population of Dhaka city is #{hash_cities["Dhaka"]}"
+
+puts "I think fav_artists[0] is legendary"
+puts "I think fav_artists[1] is amazing"
+puts "I think fav_artists[2] is cool"
