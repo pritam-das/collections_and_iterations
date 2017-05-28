@@ -34,6 +34,20 @@ puts "The coin flip results are: #{coin_flip_results}"
 
 puts "The population of Dhaka city is #{hash_cities["Dhaka"]}"
 
-puts "I think fav_artists[0] is legendary"
-puts "I think fav_artists[1] is amazing"
-puts "I think fav_artists[2] is cool"
+puts "I think #{fav_artists[0]} is legendary"
+puts "I think #{fav_artists[1]} is amazing"
+puts "I think #{fav_artists[2]} is cool"
+
+#############################EXERCISE 3###############################
+
+puts "My two favourite artists are #{fav_artists[0]} and #{fav_artists[1]}"
+
+puts "Dark Knight Rises came out in #{hash_fav_movies["Dark Knight Rises"]}"
+puts "Forrest Gump came out in #{hash_fav_movies["Forrest Gump"]}"
+
+puts "The sorted and reversed version of my friends and family member's ages: #{my_familys_age.sort_by(&:to_i).reverse}"
+
+hash_fav_movies["Beauty and the Beast"] = Array.new
+hash_fav_movies["Beauty and the Beast"] << '1991'
+hash_fav_movies["Beauty and the Beast"] << '2017'
+puts "Beauty and the Beast was released in both #{hash_fav_movies["Beauty and the Beast"]}"
